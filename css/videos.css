@@ -1,0 +1,116 @@
+@font-face {
+    font-family: fuente3d;
+    src: url(a/mexcellent-cdnfonts/mexcellent\ 3d.ttf);
+}
+
+@font-face {
+    font-family: fuente;
+    src: url(a/young-serif-cdnfonts/YoungSerif-Regular.ttf);
+}
+
+body {
+    background-image: url('a/0e6bdaad458721ecf7eb50e0254849bc-0015.jpg');
+    color: #091731;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.logs {
+    margin-left: 80%;
+
+}
+
+.logs a {
+    color: #F4DCC0;
+}
+
+a {
+    color: #1155D3;
+}
+
+h1 {
+    color: #EF8104;
+    font-family: fuente3d;
+
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+
+
+
+}
+
+.header {
+    text-align: center;
+
+
+}
+
+
+.content {
+    background-color: #F4DCC0;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    margin: 0 auto;
+
+
+}
+
+.boton {
+    margin-top: 20px;
+    background-color: #EF8104;
+    color: #1155D3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+.boton:hover {
+    background-color: #1155D3;
+    color: #EF8104;
+}
+
+
+.cat {
+    width: 100px;
+}
+
+.v {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.videos {
+    margin: 10px;
+
+}
+
+video {
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+video:hover,
+img:hover {
+    transform: translateY(-5px);
+}
+
+.v img {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
